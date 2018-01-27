@@ -1,0 +1,365 @@
+.bg00{background-color: #f4ab42;}
+.bg01{background-color: purple;}
+.bg02{background-color: peru;}
+.bg03{background-color: green}
+.bg04{background-color:blue}
+.bg06{background-color: lightgreen}
+.bg07{background:#FEED01;} /*color: Amarillo*/
+.bg08{background:#00AFFB;} /*color: Celeste*/
+.bg09{background:#EC3237;} /*color: Rojo*/
+.bg05{background-image: url(../img/1.jpg);
+    background-size: cover;
+}
+/* ----------------------------Termina colores de fondo --------------------------------- */
+.row{
+    background-color: #f4ab42;
+}
+#cortes{
+	font-family: 'Kalam', cursive;
+	position: relative;	
+	overflow:hidden;
+	margin: 50px auto 0px auto;
+	padding-bottom: 30px;
+}
+/* ----------------------------Termina estilos css --------------------------------- */
+.logoa img{
+    padding-top: 5px;
+    display:block;
+    margin:auto;
+    padding-bottom: 5px;
+}
+
+.create{
+    height: 8vh;
+    position: relative;
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+/* ----------------------------MODELOS --------------------------------- */
+#modelos{
+    display: none;
+}
+
+#modelos #modelo_texto{
+    top:-280px;
+    color: #fff;
+}
+#modelos h1{
+    top:80px;
+    color: #fff;
+    position: absolute;
+    z-index: 1000;
+    left: 500px;
+}
+#modelos .row{
+	padding-top: 80px;
+	padding-bottom: 40px; 
+	/* padding-top: 40px; */
+}
+#modelos .row .img{ 
+width: 100%; 
+height: auto;
+}
+
+#modelos .carousel-control-next,
+#modelos .carousel-control-prev{
+    top: -270px !important;
+    
+}
+#modelos .carousel-indicators {
+    /* bottom: 120px !important; */
+    top: 320px !important;
+    
+}
+/* ----------------------------MODELOS  --------------------------------- */
+/* ---------------------------INICIA HISTORIA  --------------------------------- */
+#historia{
+    width: 500px;
+    padding-top:100px;
+    padding-bottom: 30px;
+}
+/* ----------------------------FIN HISTORIA  --------------------------------- */
+/* ---------------------------INICIA SUBLIMADAS  --------------------------------- */
+#clientes{
+    width: 65%;
+    padding-top:80px;
+    padding-bottom: 10px;
+}
+#sublimadas{
+    width: 700px;
+    padding-top:100px;
+    padding-bottom: 30px;
+}
+#sublimadas h4 a{
+    text-decoration:none;
+    color: black;
+}
+#sublimadas h4 a:hover{
+    background-color: #1b8ded;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+#contacto{
+    width: 700px;
+    padding-top:100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#contacto a{
+    text-decoration:none;
+    color: black;
+}
+#contacto a:hover{
+    background-color: #1b8ded;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+
+#contacto .fcb a{
+    text-decoration:none;
+    color:#f4ab42; 
+    font-size:50px
+}
+#contacto .fcb a:hover{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    padding: 10px;
+    color:#3B5998;
+}
+
+#contacto ul, ol{
+    list-style: none;
+}
+
+#contacto li{
+    margin: 10px;
+}
+
+#contacto iframe{
+	height:420px;
+}
+/* ----------------------------FIN Sublimadas  --------------------------------- */
+/* ----------------------------INICIO CARRUSELES  --------------------------------- */
+#clientes img,
+#sublimadas img{
+    max-width: 100%;
+    height: auto;
+}
+
+#sublimadas .carousel-control-prev-icon,
+#sublimadas .carousel-control-next-icon,
+#clientes .carousel-control-prev-icon,
+#clientes .carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+}
+
+#sublimadas .carousel-control-prev-icon,
+#clientes .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230000ff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#sublimadas .carousel-control-next-icon,
+#clientes .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230000ff' viewBox='0 0 8 8'%3E%3Cpath  d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+#clientes .carousel-caption{
+    background-color: #1b8ded;
+    opacity:0.6;
+    border-radius: 5px;
+    bottom: 165px;
+    margin: 20px;
+    padding: 5px;
+}
+
+#clientes .carousel-indicators{
+    bottom: 180px;
+}
+
+#sublimadas .carousel-caption{
+    background-color: #1b8ded;
+    opacity:0.6; /* Opacidad 60% */
+    border-radius: 5px;
+    bottom: -20px;
+    margin: 20px;
+    padding: 5px;
+}
+#sublimadas .carousel-indicators{
+    bottom: -5px;
+}
+
+
+/* ----------------------------FIN CARRUSELES  --------------------------------- */
+/* ----- ----- MEDIA QUERIES ----- ----- */
+@media screen and (max-width: 480px) {
+    #historia, #sublimadas, #clientes, #contacto{
+        width: 90%;
+    }
+    #clientes .carousel-control-prev {
+        top:-50px;
+    }
+    #clientes .carousel-control-next {
+        top:-50px;
+    }
+    #clientes #carouselClientes{
+        height: 35vh;
+    }
+    #clientes .carousel-indicators{
+        top: 200px;
+    }
+
+    #contacto li{
+        font-size: 70%;
+    }
+    /**+++++++++++++++++++++++++++++++++++++++++++*/
+    .sp-contenedor{width:100%;box-sizing:border-box;}
+	.sp-contenido{
+        width: 5%;
+        left: -295px;
+        background-color: transparent;
+    }
+    .sp-fila{
+        margin-left: -260px;
+    }
+    /**+++++++++++++++++++++++++++++++++++++++++++*/
+    .sp-contenido h2:first-child {
+        position: relative;
+        left: -300px;
+        top: 40%;
+        width: 25%;
+        font-size: 50%;
+        text-align: justify;
+    }
+    .sp-contenido h2:last-child em {
+        text-transform: none;
+    }
+    .sp-contenido h3 {
+        position: relative;
+        left: -300px;
+        width: 70%;
+        top: 35%;
+        text-align: center;
+    }
+    .sp-fila:nth-child(4) span:nth-child(1) {
+     visibility: hidden;
+    }
+    .sp-fila:nth-child(4) span:nth-child(2) {
+     visibility: hidden;
+    }
+    .sp-fila:nth-child(5) span:nth-child(5) {
+        display: inline;
+  
+    }
+    .sp-fila:nth-child(2) span:nth-child(2) {
+    visibility: hidden;
+    }
+    .sp-fila:nth-child(2) span:nth-child(1) {
+     visibility: hidden;
+    }
+    /*******************************************/
+    .sp-side{
+        left: 60px;
+        background-color: transparent;
+    }
+    .sp-side h3{
+    margin-left: 40px;
+    width: 60%;
+    }
+    .sp-input{
+        position: relative;
+        left: 40px;
+        background-color: transparent;
+        width: 100%;
+    }
+    #voy{
+        /* left: 55px; */
+        width: 100px;
+    }
+    /******************** MODELOS ***********************/
+    #modelos .container{width:100%;box-sizing:border-box;}
+    #modelos h1{
+        left: 20px;
+    }
+	#modelos .row{
+        /* padding-top: 35px; */
+		padding-top: 65px;
+		align-items: flex-start;
+	}
+	#modelos .row img{
+	text-align: center;
+	}
+	#modelos .col-sm-4{
+	flex: 0 0 65.333333%;
+	max-width: 65.333333%;
+	left: 15%;
+
+    }
+    #modelos .carousel-indicators {
+        /* top: 0px !important; */
+        display: none;
+    }
+    #modelos #modelo_texto {
+        top: -10px !important;
+    }
+    /*********************MODELOS **********************/
+    
+
+}
+
+@media screen and (min-width: 0px) and (max-width:400px){
+    .sp-fila{
+        margin-left: -280px;
+    }
+    .sp-contenido h2:first-child {
+        /* position: relative; */
+        left: -300px;
+        top: 40%;
+        width: 15%;
+        font-size: 30%;
+        text-align: justify;
+    }
+    /**+++++++++++++++++++++++++++++++++++++++++++*/
+    .sp-contenido{
+        width: 50%;
+        left: -325px;
+    }
+    .sp-side h3{
+        margin-left: 10px;
+    }
+    
+    /* MUESTRAS de todos los colores */
+    #voy{
+        /* position: absolute; */
+        left: 25px;
+        width: 90px;
+        
+    }
+ /* -------------------------------ESTo ya esta validado ----------------------------------------------------*/
+    #modelos .container{width:100%;box-sizing:border-box;}
+    #modelos h1{
+        left: 30px;
+        font-size: 2em;
+    }
+	
+    #modelos .carousel-indicators {
+        display: none;
+    }
+    #modelos #modelo_texto {
+        margin-top: -100px !important;
+    }
+
+}
+

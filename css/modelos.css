@@ -1,0 +1,33 @@
+
+.row{
+	padding-top: 80px;
+	padding-bottom: 40px; 
+	/* padding-top: 40px; */
+}
+.row .img{ 
+width: 100%; 
+height: auto;
+}
+.carousel-indicators {
+    bottom: 100px !important;
+}
+/* ----- ----- MEDIA QUERIES ----- ----- */
+@media screen and (max-width: 480px) {
+	.container{width:100%;box-sizing:border-box;}
+	.row{
+		padding-top: 35px;
+		align-items: flex-start;
+	}
+	.row img{
+	text-align: center;
+	}
+	.col-sm-4{
+	flex: 0 0 65.333333%;
+	max-width: 65.333333%;
+	left: 15%;
+
+	}
+
+
+
+}
